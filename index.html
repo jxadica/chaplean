@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Chaplean</title>
+</head>
+<body>
+    <header>
+        <div class="imgContainer">
+            <img src="images/logo.svg" alt="logo">
+        </div>
+        <img src="images/menu.svg" onclick="showHeadMenu()" alt="menu" class="menu">
+        <img src="images/x.svg" onclick="displayMain()" alt="exit" class="exit">
+        <div class="pathWay">
+            <ul>
+                <li>What is Chaplean</li>
+                <li>Our difference</li>
+                <li>Pricing</li>
+                <li>Docs</li>
+                <li class="contact">Contact Us</li>
+            </ul>
+        </div>
+    </header>
+    <div class="headMenu">
+        <p>What is Chaplean</p>
+        <p>Our difference</p>
+        <p class="blueText">Docs</p>
+        <p>Pricing</p>
+        <p class="contact">Contact Us</p>
+    </div>
+    <div class="menuPart">
+        <button class="menuButton" onclick="displayMenu()" >menu</button>
+        <button class="searchButton" onclick="displaySearch()">search</button>
+    </div>
+    <div class="mobileMenu">
+        <p onclick="displayMain()" class="back"><img src="images/back.svg" class="backItem" alt="back">back</p>
+        <div class="woutBack">
+
+            <div class="leftFrame1">
+                <div class="logoName">
+                    <img src="images/rectangle.svg" alt="logo" class="frame1Logo">
+                    <div class="frame1Text">
+                        <p class="appName">Chaplean App</p>
+                        <p style="font-size: 12px;">Social media platform</p>
+                    </div>
+                </div>
+                <img src="images/arrow-styles.svg" alt="arrow">
+            </div>
+            <div class="leftMenu">
+                <ul>
+                    <li class="headingPart">Getting Started
+                    <ul>
+                        <li>Installation</li>
+                        <li>Project Structure</li>
+                    </ul></li>
+                    <li  class="headingPart">Building Your Application
+                    <ul>
+                        <li>Routing <img class="listArrow" src="images/arrow-styles.svg" alt="arrow"></li>
+                        <li>Data Fetching <img class="listArrow" src="images/arrow-styles.svg" alt="arrow"></li>
+                        <li>Rendering <img class="listArrow" src="images/arrow-styles.svg" alt="arrow"></li>
+                    </ul>
+                </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="mobileSearch">
+        <p onclick="displayMain()" class="back"><img src="images/back.svg" class="backItem" alt="back">back</p> 
+        <div class="searchSec">
+
+            <p  class="search"> <img src="images/search.svg" alt="search" >Search</p>
+                <nav class="searchNav">
+                    <ul>
+                        <li>On this page</li>
+                        <li>Accessibility</li>
+                        <li>What is Chaplean</li>
+                        <li>How to use</li>
+                        <li>Accessibility</li>
+                        <li><hr></li>
+                        <li>Edit this page</li>
+                        <li>Managed Chaplean</li>
+                    </ul>
+                </nav>
+        </div>
+    </div>
+    <div class="container">
+        <div style="display: flex;" class="upper">
+
+            <aside class="leftAside">
+                <div class="leftFrame1">
+                    <img src="images/rectangle.svg" alt="logo" class="frame1Logo">
+                    <div class="frame1Text">
+                        <p class="appName">Chaplean App</p>
+                        <p style="font-size: 12px;">Social media platform</p>
+                    </div>
+                    <img src="images/arrow-styles.svg" alt="arrow">
+                </div>
+                <div class="leftMenu">
+                    <ul>
+                        <li class="headingPart">Getting Started
+                        <ul>
+                            <li>Installation</li>
+                            <li>Project Structure</li>
+                        </ul></li>
+                        <li  class="headingPart">Building Your Application
+                        <ul>
+                            <li>Routing <img class="listArrow" src="images/arrow-styles.svg" alt="arrow"></li>
+                            <li>Data Fetching <img class="listArrow" src="images/arrow-styles.svg" alt="arrow"></li>
+                            <li>Rendering <img class="listArrow" src="images/arrow-styles.svg" alt="arrow"></li>
+                        </ul>
+                    </li>
+                    </ul>
+    
+                </div>
+            </aside>
+            <main>
+                <div class="main1">
+                    <h2>Introduction</h2>
+                    <p>Welcome to the Chaplean documentation</p>
+                </div>
+                <div class="main2">
+                    <h3>What is Chaplean?</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. </p><br>
+                    
+                    <p>Vestibulum auctor ornare leo, non suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at maximus ante fermentum sit amet. Pellentesque commodo lacus at sodales sodales. Quisque sagittis orci ut diam condimentum, vel euismod erat placerat. </p><br>
+                    <p>In iaculis arcu eros, eget tempus orci facilisis id. Praesent lorem orci, mattis non efficitur id, ultricies vel nibh. Sed volutpat lacus vitae gravida viverra. <span class="blueText">Fusce</span>(hover: <a class="blueText underlinedText">Fusce</a>) vel tempor elit. Proin tempus, magna id scelerisque vestibulum, nulla ex pharetra sapien, tempor posuere massa neque nec felis. Aliquam sem ipsum, vehicula ac tortor vel, egestas ullamcorper dui.</p>
+                </div><br>
+                <div class="main2">
+                    <h3>What is Chaplean?</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. </p><br>
+                    <p>Vestibulum auctor ornare leo, non suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at maximus ante fermentum sit amet. Pellentesque commodo lacus at sodales sodales. Quisque sagittis orci ut diam condimentum, vel euismod erat placerat. </p><br>
+                    <p>In iaculis arcu eros, eget tempus orci facilisis id. Praesent lorem orci, mattis non efficitur id, ultricies vel nibh. Sed volutpat lacus vitae gravida viverra. <span class="blueText">Fusce</span>(hover: <a class="blueText underlinedText">Fusce</a>) vel tempor elit. Proin tempus, magna id scelerisque vestibulum, nulla ex pharetra sapien, tempor posuere massa neque nec felis. Aliquam sem ipsum, vehicula ac tortor vel, egestas ullamcorper dui.</p>
+                </div>
+                <div class="blocks">
+                    <div>
+                        <h3>Join our Community</h3>
+                        <p>If you have questions about anything related to Chaplean, you're always welcome to ask our community</p>
+                    </div>
+                    <div>
+                        <h3>Join our Community</h3>
+                        <p>If you have questions about anything related to Chaplean, you're always welcome to ask our community</p>
+                    </div>
+                    <div class="title">
+                        <h3>Title</h3>
+                        <p>If you have questions about anything related to Chaplean, you're always welcome to ask our community</p>
+                    </div>
+                    <div>
+                        <h3>Join our Community</h3>
+                        <p>If you have questions about anything related to Chaplean, you're always welcome to ask our community</p>
+                    </div>
+                    <div class="title">
+                        <h3>Title</h3>
+                        <p>If you have questions about anything related to Chaplean, you're always welcome to ask our community</p>
+                    </div>
+                    <div>
+                        <h3>Join our Community</h3>
+                        <p>If you have questions about anything related to Chaplean, you're always welcome to ask our community</p>
+                    </div>
+                </div>
+            </main>
+            <aside class="rightAside">
+                <p  class="search"> <img src="images/search.svg" alt="search" >Search</p>
+                <nav class="searchNav">
+                    <ul>
+                        <li>On this page</li>
+                        <li>Accessibility</li>
+                        <li>What is Chaplean</li>
+                        <li>How to use</li>
+                        <li>Accessibility</li>
+                        <li><hr></li>
+                        <li>Edit this page</li>
+                        <li>Managed Chaplean</li>
+                    </ul>
+                </nav>
+            </aside>
+        </div>
+        <footer>
+            <div class="fNavs">
+                <img src="images/logo.svg" alt="logo">
+                <p>What is Chaplean</p>
+                <p>Our Difference</p>
+                <p>Pricing</p>
+                <p>Docs</p>
+                <p>Contact Us</p>
+            </div>
+            <button class="downoload"><img src="images/downoload.svg" alt="downoload-item" >Downoload</button>
+        </footer>
+        <p class="policy">Privacy & Policy-Cookies</p>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
