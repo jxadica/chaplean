@@ -82,14 +82,14 @@ padding: 8px 16px 8px 16px;
     font-weight: 500px;
 }
 .frame1Text{
-    padding-left: 10px;
+    padding-left: 6px;
     margin-right: 16px;
 }
 .leftFrame1 h4 {
     font-size: 16px;
 }
 
-.leftFrame1 img{
+.leftFrame1 + img{
     width: 32px;
 }
 .frame1Logo {
@@ -120,9 +120,13 @@ padding: 8px 16px 8px 16px;
 .leftMenu .headingPart > ul > li {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    color: #BBBBBB;
 }
 
-
+.leftFrame1 .arrow {
+    width: 25px;
+}
 main {
     width: 60%;
     color: white;
@@ -137,11 +141,11 @@ main p {
     font-family: 'sf-pro-display-regular', sans-serif;
 }
 .main1 {
-    margin: 7px 0px 45px 0px ;
+    margin: 7px 0px 95px 0px ;
 }
 
 .main1 p {
-    margin-top: 15px;
+    margin-top: 26px;
 }
 .main2{
     display: flex;
@@ -184,7 +188,7 @@ main p {
     text-decoration: underline;
 }
 .rightAside {
-    width: 200px;
+    width: 238px;
     padding: 20px;
     color: white;
     font-family: 'sf-pro-display-regular', sans-serif;
@@ -197,7 +201,6 @@ main p {
     border-radius: 15px;
     border: none;
     background-color: #272C46;
-    color: #e8f1f2;
     font-size: 14px;
 }
 .search img {
@@ -208,7 +211,12 @@ main p {
     padding: 0;
     margin-left: 14px;
     font-size: 14px;
+    color: #BBBBBB;
 
+
+}
+.searchNav ul li:first-child {
+    color: white;
 }
 .searchNav ul li {
     margin-bottom: 10px;
