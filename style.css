@@ -63,6 +63,7 @@ padding: 8px 16px 8px 16px;
     display: flex;
     flex-wrap: wrap;
     height: 100vh;
+    margin-left: 10PX;
     justify-content: center;
 }
 .leftFrame1{
@@ -79,7 +80,7 @@ padding: 8px 16px 8px 16px;
 }
 .appName {
     font-size: 16px;
-    font-weight: 500px;
+    font-weight: 500;
 }
 .frame1Text{
     padding-left: 6px;
@@ -128,7 +129,7 @@ padding: 8px 16px 8px 16px;
     width: 25px;
 }
 main {
-    width: 60%;
+    width: 100%;
     color: white;
     height: fit-content;
     padding: 5px;
@@ -159,6 +160,8 @@ main p {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     padding-top: 20px;
+    justify-items: center;
+
 }
 .blocks div {
     width: 100%;
@@ -282,7 +285,7 @@ display: none;
 .headMenu {
     display: none;
 }
-@media screen and (min-width:360px) and (max-width: 600px) {
+@media (max-width: 575px) {
     .leftAside, .rightAside {
         display: none;
     }
@@ -290,6 +293,7 @@ display: none;
         grid-template-columns: repeat(1, 1fr);
     }
     footer {
+        flex-direction: column;
         flex-wrap: wrap;
         justify-content: center;
     }
@@ -329,9 +333,10 @@ display: none;
     main {
         width: 100%;
     }
+    
     .blocks div {
-        width: 328px;
-        height: 146px;
+        width: 80%;
+        height: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -346,7 +351,6 @@ display: none;
         text-align: center;
         font-family: "Poppins", sans-serif;
         font-size: 14px;
-
     }
     .fNavs img {
         width: 238px;
@@ -396,6 +400,7 @@ display: none;
         width: 328px;
       }
       .woutBack {
+        height:100vh ;    
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -422,3 +427,154 @@ display: none;
         margin-bottom: 12px;
       }
 }
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .leftAside, .rightAside {
+        display: none;
+    }
+    .blocks {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    footer {
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .downoload {
+        background-color: #141526;
+        border: none;
+        margin-top: 18px;
+        font-size: 16px;
+        font-family: "Poppins", sans-serif;
+        width: 210px;
+        height: 49px;
+    }
+    .fNavs {
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+        font-size: 16px;
+    }
+    main {
+        margin: 0;
+        padding: 15px;
+    }
+    .blocks {
+        padding: 15px;
+    }
+    .blocks h3 {
+        font-size: 18px;
+    }
+    .blocks p {
+        font-size: 13px;
+    }
+    .pathWay {
+        display: none;
+    }
+    .menu {
+        display: block;
+    }
+    .searchSec {
+        height: 100vh;
+        padding: 20px;
+        color: white;
+        font-family: 'sf-pro-display-regular', sans-serif;    
+        background-color: #141526;
+      }
+      .headMenu {
+        background-color: #272C46;
+        color: white;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        font-size: 16px;
+        font-family: "Poppins", sans-serif;
+        padding: 20px;
+      }
+      .headMenu p {
+        margin-bottom: 12px;
+      }
+      .menuPart {
+        display: block;
+        background-color: #272C46;
+        display: flex;
+        /* font-size: 16px; */
+        justify-content: space-between;
+        padding: 14px;
+    }
+    .menuPart button {
+        font-size: 16px;
+        background: none;
+        border: none;
+        color: white;
+        font-family: 'sf-pro-display-regular', sans-serif;
+    }
+    .woutBack {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .mobileMenu {
+        background-color:#141526 ;
+       }
+      .back {
+       color: white;
+        padding: 10px;
+        background-color: #272C46;
+        font-family: 'sf-pro-display-regular', sans-serif;
+        font-size: 167x;
+       }
+       .back img {
+        margin-right: 16px;
+       }
+       .leftFrame1 {
+        width: 328px;
+        justify-content: space-between;
+        padding: 17px;
+       }
+       .logoName {
+        display: flex;
+       }
+       .frame1Logo {
+        margin: 0px;
+       }
+      .leftMenu {
+        width: 328px;
+        font-size: 16px;
+      }
+      .searchNav ul {
+        font-size: 17px;
+      }
+      .searchSec p {
+        font-size: 17px;
+      }
+  }
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .leftAside {
+        width: 25%;
+        margin-left: 14px;
+    }
+    .frame1Logo {
+        width: 28px;
+        margin-left: 9px;
+    }
+    .appName {
+        font-size: 14px;
+    }
+   .leftFrame1 .arrow {
+    margin-right: 10px;
+   }
+    .rightAside {
+        width: 40%;
+    }
+    .blocks {
+        padding: 15px;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+    .blocks h3 {
+        font-size: 18px;
+    }
+    .blocks p {
+        font-size: 13px;
+    }
+
+  }
